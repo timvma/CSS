@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient-loading</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/gradient-loading.css">
+    <script src="js/code.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="wrapper"> <a href="/">Home</a></nav>
+    </header>
+
+    <main>
+
+        <div class="wrapper">
+            <section class="demo__container">
+                <div class="card__container">
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                    <div class="card">
+                        <div class='gradient element-image'></div>
+                        <div class='gradient element-title'></div>
+                        <div class='gradient element-paragraph'></div>
+                    </div>
+                  
+    
+                </div>
+            </section>
+
+            <section class="code__container">
+                <div class="code">
+                    <h2>HTML</h2>
+                    
+
+
+<template>
+    <div class="card">
+        <div class='gradient element-image'></div>
+        <div class='gradient element-title'></div>
+        <div class='gradient element-paragraph'></div>
+    </div>
+</template>
+
+<button class="copy-code">Copy</button>
+
+
+                    <p>Element should have height and width</p>
+
+                </div>
+                <div class="code">
+                    <h2>CSS</h2>
+                    <p></p>
+                    <pre><code>
+    .gradient {
+        position: relative;
+        background: #f6f7f8;
+        background: linear-gradient(to right, #fafafa 8%, #b7b7b7 38%, #fafafa 54%);
+        background-size: 1000px 640px;
+        animation:gradientLoading forwards infinite linear 1.8s;
+    }
+
+    @keyframes gradientLoading{
+        0%{background-position: -468px 0}
+        100%{ background-position: 468px 0}
+    }
+                    </code></pre>
+                    <p>Move background color via animation<br>
+                        You can play around the<br> 
+                        animation-direction: alternate, normal, forwards<br>
+                        
+
+
+                    </p>
+
+                </div>
+
+    
+
+            </section>
+
+    
+         
+        </div>
+    
+
+    </main>
+
+
+
+
+  
+    
+    
+    
+</body>
+</html>

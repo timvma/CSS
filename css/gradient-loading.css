@@ -1,0 +1,51 @@
+.gradient {
+    position: relative;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #fafafa 8%, #dadada 38%, #fafafa 54%);
+    background-size: 1000px 640px;
+    animation:gradientLoading alternate infinite ease 1.8s;
+
+}
+
+@keyframes gradientLoading{
+    0%{background-position: -468px 0}
+    100%{ background-position: 468px 0}
+}
+
+.element-image {
+    width: 100%;
+    aspect-ratio: 1;
+    margin-bottom: 1rem;
+}
+
+.element-title {
+    height:1.6rem;
+    width:80%;
+    margin-bottom: .5rem;
+}
+
+.element-paragraph {
+    height:1rem;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.element-button {
+    height: 2rem;
+    width: 5rem;
+    margin-left: auto;
+}
+
+
+
+
+
+.card__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    width: 100%;
+}
